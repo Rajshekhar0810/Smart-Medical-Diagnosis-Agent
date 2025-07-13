@@ -9,7 +9,8 @@ This project is an AI-powered, role-based medical diagnosis assistant built usin
 ---
 
 ## 📁 Project Structure
-mart-Medical-Diagnosis-Agent/
+```
+Smart-Medical-Diagnosis-Agent/
 ├── agents/
 │ └── medical_agents.py # Contains role-based agent classes
 ├── config/
@@ -26,8 +27,7 @@ mart-Medical-Diagnosis-Agent/
 ├── .env # API keys and environment variables
 ├── main.py # Main execution logic
 ├── README.md # Project documentation
-
-
+```
 ---
 
 ## 🚀 How It Works
@@ -40,6 +40,7 @@ mart-Medical-Diagnosis-Agent/
 ---
 
 ## 🏗️ Architecture Diagram
+```
 
 +---------------------+ +---------------------+
 | Medical Report File | ----> | Specialist Agents |
@@ -58,19 +59,10 @@ v
 | Final Diagnosis (TXT) |
 | (results/final_diagnosis.txt)|
 +--------------------------+
+```
 
-yaml
-Copy
-Edit
 
----
 
-## ⚙️ Setup & Usage
 
-### 1. Clone repo
-
-```bash
-git clone https://github.com/Rajshekhar0810/Smart-Medical-Diagnosis-Agent.git
-cd Smart-Medical-Diagnosis-Agent
 
 
